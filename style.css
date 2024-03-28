@@ -72,7 +72,6 @@ section.imagem {
     background-color: rgb(34, 33, 33);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.781); /*sombra na caixa para trazer a sensação de papel*/
-    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -85,11 +84,12 @@ section.imagem p {
 
 section#img01 {
     background-image: url(imagens/cruz.jpg);
-    background-position: right center;
+    background-position: center center
 }
 
 section#img02 {
     background-image: url(imagens/biblia.jpg);
+    background-size: cover;
 }
 
 footer {
